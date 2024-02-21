@@ -1,4 +1,4 @@
-﻿namespace MDL_Test_task.Models;
+﻿namespace Task.Models;
 
 public class Mail
 {

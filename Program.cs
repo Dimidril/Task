@@ -1,5 +1,5 @@
-using MDL_Test_task;
-using MDL_Test_task.Models;
+using Task;
+using Task.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,9 +1,8 @@
-﻿using MDL_Test_task.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using Task.Models;
 
-
-namespace MDL_Test_task;
+namespace Task;
 
 public sealed class ApplicationContext: DbContext
 {

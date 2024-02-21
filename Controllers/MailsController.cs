@@ -1,10 +1,10 @@
 ﻿using System.Net;
 using System.Net.Mail;
-using MDL_Test_task.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Task.Models;
 
-namespace MDL_Test_task.Controllers;
+namespace Task.Controllers;
 
 [ApiController, Route("api/[controller]")]
 public class MailsController(MailSettings smtpSettings, ApplicationContext context) : Controller
